@@ -114,7 +114,7 @@ def demo_validation():
         {
             'name': 'sentiment_short',
             'dataset': pd.read_csv('data/processed/fusion/dataset_sentiment.csv'),
-            'fecha_objetivo': '2025-04-18',
+            'fecha_objetivo': '2025-04-21',
             'descripcion': 'Sentiment Short (1d)',
             'expected_acc': 56.0,
             'horizon': 'short'
